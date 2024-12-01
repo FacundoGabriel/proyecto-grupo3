@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Muebles</title>
 </head>
+
 <body>
+
+    <!-- Inicio Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top nav ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="" src="img/logo.png" alt="logo de la empresa" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-row" id="navbarNav">
+                    <ul class="mx-auto d-flex list-unstyled flex-column flex-md-row">
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="./paginas/error404.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="./paginas/error404.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <ul class="mx-auto d-flex list-unstyled flex-column flex-md-row">
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="./paginas/error404.html">Iniciar Sesión</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="./paginas/error404.html">Registrarse</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- Fin Navbar -->
+
     <main class="container-xl">
         <h2 class="text-center my-4">Productos</h2>
 
@@ -14,128 +55,135 @@
             <!-- Columna de Productos -->
             <div class="col-12 col-md-8">
                 <div class="row">
-                  <!-- Producto 1 -->
-                     
-                  <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal1">
-                      <img class="img-fluid img" src="img/producto1.jpg" alt="Imagen producto 1">
-                    </a>
-                  
-                    
-                    <div class="p-3">
-                      <h2>Placard</h2>
-                      <p class="fs-5">$210.000</p>
-                      <a href="error404.html" class="btn btn-secondary fs-6 w-100">Ver Producto</a>
-                    </div>
-                  </div>
-                  
-                  
-                  <div class="modal fade" id="imagenModal1">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
+                    <!-- Producto 1 -->
 
-                        <div class="modal-body p-2 text-center">
-                          <img src="img/producto1.jpg" class="img-fluid img" alt="Imagen producto 1">
-                          <div class="p-3 text-center">
+                    <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal1">
+                            <img class="img-fluid img" src="img/producto1.jpg" alt="Imagen producto 1">
+                        </a>
+
+
+                        <div class="p-3">
                             <h2>Placard</h2>
-                            <p class="fs-5 ">$210.000</p>
-                          
-                          </div>
-
+                            <p class="fs-5">$210.000</p>
+                            <a href="error404.html" class="btn btn-secondary fs-6 w-100">Ver Producto</a>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                <!-- Producto 2 -->
-                <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
-                  <div class="position-relative">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal2">
-                        <img class="img-fluid img" src="img/producto2.jpg" alt="Imagen producto 2">
-                        <img src="img/oferta-hot-sale.webp" alt="Hot Sale" class="position-absolute top-0 end-0 img-hot-sale">
-                    </a>
-
-                  </div>
-                    
-                   
-                    <div class="p-3">
-                    <h2>Mueble Auxiliar Lirio</h2>
-
-
-                    <div class="d-flex flex-row align-items-center gap-2 justify-content-center align-items-center">
-                        <p class="fs-6 text-decoration-line-through mb-0">$320.000</p>
-                        <p class="fs-4 mb-1 bg-danger py-1 px-3 text-white rounded-3">$280.000</p>
                     </div>
 
-                        <a href="error404.html" class="btn btn-secondary fs-6 w-100">Ver Producto</a>
-                    </div>
-                </div>
 
-                <div class="modal fade" id="imagenModal2">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-body p-2 text-center">
-                                <img src="img/producto2.jpg" class="img-fluid" alt="Imagen producto 2">
-                                <img src="img/oferta-hot-sale.webp" alt="Hot Sale" class="position-absolute top-0 end-0 img-hot-sale me-5 mt-2">
+                    <div class="modal fade" id="imagenModal1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
 
-                                <h2>Mueble Auxiliar Lirio</h2>
-                                <div class="d-flex flex-row align-items-center gap-2 justify-content-center align-items-center">
-                                    <p class="fs-6 text-decoration-line-through mb-0">$320.000</p>
-                                    <p class="fs-4 mb-1 bg-danger py-1 px-3 text-white rounded-3">$280.000</p>
+                                <div class="modal-body p-2 text-center">
+                                    <img src="img/producto1.jpg" class="img-fluid img" alt="Imagen producto 1">
+                                    <div class="p-3 text-center">
+                                        <h2>Placard</h2>
+                                        <p class="fs-5 ">$210.000</p>
+
+                                    </div>
+
                                 </div>
-                            </div>
-
-                            <div class="modal-footer">
-                                <button data-bs-dismiss="modal" type="button" class="btn btn-secondary">Cerrar</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Producto 3 -->
-                <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
-                    <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal3">
-                        <img class="img-fluid img" src="img/producto3.jpg" alt="Imagen producto 3">
-                    </a>
-
-                    <div class="p-3">
-                        <h2>Mesa Yana</h2>
-                        
-                        <p class="fs-5">$230.000</p>
-                        <a href="error404.html" class="btn btn-secondary fs-6 w-100">Ver Producto</a>
-                    </div>
-                </div>
-
-                <div class="modal fade" id="imagenModal3">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-body p-2 text-center">
-                                <img class="img-fluid" src="img/producto3.jpg" alt="Imagen producto 3">
-
-                                <div class="p-3">
-                                    <h2>Mesa Yana</h2>
-                                    
-                                    <p class="fs-5">$230.000</p>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
 
                                 </div>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" data-bs-dismiss="modal" class="btn btn-secondary">Cerrar</button>
+                        </div>
+                    </div>
+
+                    <!-- Producto 2 -->
+                    <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
+                        <div class="position-relative">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal2">
+                                <img class="img-fluid img" src="img/producto2.jpg" alt="Imagen producto 2">
+                                <img src="img/oferta-hot-sale.webp" alt="Hot Sale"
+                                    class="position-absolute top-0 end-0 img-hot-sale">
+                            </a>
+
+                        </div>
+
+
+                        <div class="p-3">
+                            <h2>Mueble Auxiliar Lirio</h2>
+
+
+                            <div
+                                class="d-flex flex-row align-items-center gap-2 justify-content-center align-items-center">
+                                <p class="fs-6 text-decoration-line-through mb-0">$320.000</p>
+                                <p class="fs-4 mb-1 bg-danger py-1 px-3 text-white rounded-3">$280.000</p>
+                            </div>
+
+                            <a href="error404.html" class="btn btn-secondary fs-6 w-100">Ver Producto</a>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="imagenModal2">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body p-2 text-center">
+                                    <img src="img/producto2.jpg" class="img-fluid" alt="Imagen producto 2">
+                                    <img src="img/oferta-hot-sale.webp" alt="Hot Sale"
+                                        class="position-absolute top-0 end-0 img-hot-sale me-5 mt-2">
+
+                                    <h2>Mueble Auxiliar Lirio</h2>
+                                    <div
+                                        class="d-flex flex-row align-items-center gap-2 justify-content-center align-items-center">
+                                        <p class="fs-6 text-decoration-line-through mb-0">$320.000</p>
+                                        <p class="fs-4 mb-1 bg-danger py-1 px-3 text-white rounded-3">$280.000</p>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button data-bs-dismiss="modal" type="button"
+                                        class="btn btn-secondary">Cerrar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                    
+
+                    <!-- Producto 3 -->
+                    <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal3">
+                            <img class="img-fluid img" src="img/producto3.jpg" alt="Imagen producto 3">
+                        </a>
+
+                        <div class="p-3">
+                            <h2>Mesa Yana</h2>
+
+                            <p class="fs-5">$230.000</p>
+                            <a href="error404.html" class="btn btn-secondary fs-6 w-100">Ver Producto</a>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="imagenModal3">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body p-2 text-center">
+                                    <img class="img-fluid" src="img/producto3.jpg" alt="Imagen producto 3">
+
+                                    <div class="p-3">
+                                        <h2>Mesa Yana</h2>
+
+                                        <p class="fs-5">$230.000</p>
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" data-bs-dismiss="modal"
+                                        class="btn btn-secondary">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Producto 4 -->
                     <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
-                      <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal4">
-                        <img class="img-fluid img" src="img/producto4.png" alt="Imagen producto 4">
-                      </a>
-                        
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal4">
+                            <img class="img-fluid img" src="img/producto4.png" alt="Imagen producto 4">
+                        </a>
+
                         <div class="p-3">
                             <h2>Estanteria </h2>
                             <p class="fs-5">$140.000</p>
@@ -144,27 +192,29 @@
                     </div>
 
                     <div class="modal fade" id="imagenModal4">
-                      <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                          <div class="modal-body p-2 text-center">
-                            <img class="img-fluid" src="img/producto4.png" alt="Imagen producto 4">
-                            <div class="p-3">
-                              <h2>Estanteria </h2>
-                              <p class="fs-5">$140.000</p>
-                          </div>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          </div>
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body p-2 text-center">
+                                    <img class="img-fluid" src="img/producto4.png" alt="Imagen producto 4">
+                                    <div class="p-3">
+                                        <h2>Estanteria </h2>
+                                        <p class="fs-5">$140.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
 
                     <!-- Producto 5 -->
                     <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal5"><img class="img-fluid img" src="img/producto5.png" alt="Imagen producto 5"></a>
-                      
-                        <div class="p-3" >
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal5"><img class="img-fluid img"
+                                src="img/producto5.png" alt="Imagen producto 5"></a>
+
+                        <div class="p-3">
                             <h2>Sofá París</h2>
                             <p class="fs-5">$3900.000</p>
                             <a href="error404.html" class="btn btn-secondary fs-6 w-100">Ver Producto</a>
@@ -172,26 +222,28 @@
                     </div>
 
                     <div class="modal fade" id="imagenModal5">
-                      <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                          <div class="modal-body p-2 text-center">
-                            <img class="img-fluid" src="img/producto5.png" alt="Imagen producto 4">
-                            <div class="p-3">
-                              <h2>Sofá París</h2>
-                              <p class="fs-5">$390.000</p>
-                          </div>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          </div>
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body p-2 text-center">
+                                    <img class="img-fluid" src="img/producto5.png" alt="Imagen producto 4">
+                                    <div class="p-3">
+                                        <h2>Sofá París</h2>
+                                        <p class="fs-5">$390.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
 
                     <!-- Producto 6 -->
                     <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
-                      <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal6"><img class="img-fluid img" src="img/producto6.png" alt="Imagen producto 6"></a>
-                        
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal6"><img class="img-fluid img"
+                                src="img/producto6.png" alt="Imagen producto 6"></a>
+
                         <div class="p-3">
                             <h2>Silla Comedor</h2>
                             <p class="fs-5">$190.000</p>
@@ -199,56 +251,60 @@
                         </div>
                     </div>
 
-                   <div class="modal fade" id="imagenModal6">
-                      <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                          <div class="modal-body p-2 text-center">
-                            <img class="img-fluid" src="img/producto6.png" alt="Imagen producto 4">
-                            <div class="p-3">
-                              <h2>Silla Comedor</h2>
-                              <p class="fs-5">$190.000</p>
-                          </div>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          </div>
+                    <div class="modal fade" id="imagenModal6">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body p-2 text-center">
+                                    <img class="img-fluid" src="img/producto6.png" alt="Imagen producto 4">
+                                    <div class="p-3">
+                                        <h2>Silla Comedor</h2>
+                                        <p class="fs-5">$190.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
 
 
                     <!-- Producto 7 -->
                     <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
-                      <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal7"><img class="card-img-top img" src="img/producto7.png" alt="Imagen producto 7"></a>
-                        
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal7"><img class="card-img-top img"
+                                src="img/producto7.png" alt="Imagen producto 7"></a>
+
                         <div class="p-3">
-                            <h2 >Sofá Cama</h2>
-                            <p class="fs-5">$420.000</p>      
+                            <h2>Sofá Cama</h2>
+                            <p class="fs-5">$420.000</p>
                             <a href="error404.html" class="btn btn-secondary fs-6 w-100">Ver Producto</a>
                         </div>
                     </div>
 
                     <div class="modal fade" id="imagenModal7">
-                      <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                          <div class="modal-body p-2 text-center">
-                            <img class="img-fluid" src="img/producto7.png" alt="Imagen producto 4">
-                            <div class="p-3">
-                              <h2>Sofá Cama</h2>
-                              <p class="fs-5">$420.000</p>
-                          </div>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          </div>
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body p-2 text-center">
+                                    <img class="img-fluid" src="img/producto7.png" alt="Imagen producto 4">
+                                    <div class="p-3">
+                                        <h2>Sofá Cama</h2>
+                                        <p class="fs-5">$420.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
 
                     <!-- Producto 8 -->
                     <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
-                      <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal8"><img class="card-img-top img" src="img/producto8.png" alt="Imagen producto 8"></a>
-                        
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal8"><img class="card-img-top img"
+                                src="img/producto8.png" alt="Imagen producto 8"></a>
+
                         <div class="p-3">
                             <h2>Mueble de Cocina</h2>
                             <p class="fs-5">$120.000</p>
@@ -257,68 +313,77 @@
                     </div>
 
                     <div class="modal fade" id="imagenModal8">
-                      <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                          <div class="modal-body p-2 text-center">
-                            <img class="img-fluid" src="img/producto8.png" alt="Imagen producto 4">
-                            <div class="p-3">
-                              <h2>Mueble de Cocina</h2>
-                              <p class="fs-5">$120.000</p>
-                          </div>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          </div>
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body p-2 text-center">
+                                    <img class="img-fluid" src="img/producto8.png" alt="Imagen producto 4">
+                                    <div class="p-3">
+                                        <h2>Mueble de Cocina</h2>
+                                        <p class="fs-5">$120.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
 
 
                     <!-- Producto 9 -->
                     <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
-                      <div class="position-relative">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal9"><img class="img-fluid img" src="img/producto9.png" alt="Imagen producto 9">
-                        <img src="img/oferta-hot-sale.webp" alt="Hot Sale" class="position-absolute top-0 end-0 img-hot-sale"></a>
-                        
-                      </div>
+                        <div class="position-relative">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal9"><img class="img-fluid img"
+                                    src="img/producto9.png" alt="Imagen producto 9">
+                                <img src="img/oferta-hot-sale.webp" alt="Hot Sale"
+                                    class="position-absolute top-0 end-0 img-hot-sale"></a>
+
+                        </div>
                         <div class="p-3">
                             <h2>Placard Orlandi</h2>
 
 
-                            <div class="d-flex flex-row align-items-center gap-2 justify-content-center align-items-center">
-                               <p class="fs-6 text-decoration-line-through mb-0">$250.000</p>
-                               <p class="fs-4 mb-1 bg-danger py-1 px-3 text-white rounded-3">$120.000</p>
+                            <div
+                                class="d-flex flex-row align-items-center gap-2 justify-content-center align-items-center">
+                                <p class="fs-6 text-decoration-line-through mb-0">$250.000</p>
+                                <p class="fs-4 mb-1 bg-danger py-1 px-3 text-white rounded-3">$120.000</p>
                             </div>
 
                             <a href="error404.html" class="btn btn-secondary fs-6 w-100">Ver Producto</a>
                         </div>
                     </div>
 
-                    <div class="modal fade" id="imagenModal9" tabindex="-1" aria-labelledby="imagenModal1Label" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-body p-2 text-center">
-                                <img src="img/producto9.png" class="img-fluid" alt="Imagen producto 2">
-                                <img src="img/oferta-hot-sale.webp" alt="Hot Sale" class="position-absolute top-0 end-0 img-hot-sale me-5 mt-5">
+                    <div class="modal fade" id="imagenModal9" tabindex="-1" aria-labelledby="imagenModal1Label"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body p-2 text-center">
+                                    <img src="img/producto9.png" class="img-fluid" alt="Imagen producto 2">
+                                    <img src="img/oferta-hot-sale.webp" alt="Hot Sale"
+                                        class="position-absolute top-0 end-0 img-hot-sale me-5 mt-5">
 
-                                <h2>Placard Orlandi</h2>
-                                <div class="d-flex flex-row align-items-center gap-2 justify-content-center align-items-center">
-                                    <p class="fs-6 text-decoration-line-through mb-0">$250.000</p>
-                                    <p class="fs-4 mb-1 bg-danger py-1 px-3 text-white rounded-3">$120.000</p>
+                                    <h2>Placard Orlandi</h2>
+                                    <div
+                                        class="d-flex flex-row align-items-center gap-2 justify-content-center align-items-center">
+                                        <p class="fs-6 text-decoration-line-through mb-0">$250.000</p>
+                                        <p class="fs-4 mb-1 bg-danger py-1 px-3 text-white rounded-3">$120.000</p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="modal-footer">
-                                <button data-bs-dismiss="modal" type="button" class="btn btn-secondary">Cerrar</button>
+                                <div class="modal-footer">
+                                    <button data-bs-dismiss="modal" type="button"
+                                        class="btn btn-secondary">Cerrar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
                     <!-- Producto 10 -->
                     <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
-                      <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal10"> <img class="card-img-top img" src="img/producto10.png" alt="Imagen producto 10"></a>
-                       
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal10"> <img
+                                class="card-img-top img" src="img/producto10.png" alt="Imagen producto 10"></a>
+
                         <div class="p-3">
                             <h2>Diván para psicólogo</h2>
                             <p class="fs-5">$310.000</p>
@@ -327,26 +392,28 @@
                     </div>
 
                     <div class="modal fade" id="imagenModal10">
-                      <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                          <div class="modal-body p-2 text-center">
-                            <img class="img-fluid" src="img/producto10.png" alt="Imagen producto 4">
-                            <div class="p-3">
-                              <h2>Diván para psicólogo</h2>
-                              <p class="fs-5">$310.000</p>
-                          </div>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          </div>
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body p-2 text-center">
+                                    <img class="img-fluid" src="img/producto10.png" alt="Imagen producto 4">
+                                    <div class="p-3">
+                                        <h2>Diván para psicólogo</h2>
+                                        <p class="fs-5">$310.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
 
                     <!-- Producto 11 -->
                     <div class="col-12 col-md-6 col-lg-4 text-center mb-5 article">
-                      <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal11"><img class="card-img-top img" src="img/producto11.jpg" alt="Imagen producto 11"></a>
-                        
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal11"><img class="card-img-top img"
+                                src="img/producto11.jpg" alt="Imagen producto 11"></a>
+
                         <div class="p-3">
                             <h2>Mesa TV Milán</h2>
                             <p class="fs-5">$240.000</p>
@@ -355,62 +422,70 @@
                     </div>
 
                     <div class="modal fade" id="imagenModal11">
-                      <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                          <div class="modal-body p-2 text-center">
-                            <img class="img-fluid" src="img/producto11.jpg" alt="Imagen producto 4">
-                            <div class="p-3">
-                              <h2>Mesa TV Milán</h2>
-                              <p class="fs-5">$240.000</p>
-                          </div>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                          </div>
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body p-2 text-center">
+                                    <img class="img-fluid" src="img/producto11.jpg" alt="Imagen producto 4">
+                                    <div class="p-3">
+                                        <h2>Mesa TV Milán</h2>
+                                        <p class="fs-5">$240.000</p>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
 
                     <!-- Producto 12 -->
                     <div class="col-12 col-md-6 col-lg-4 text-center article">
-                      <div class="position-relative">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal12"><img class="img-fluid img" src="img/producto12.png" alt="Imagen producto 12">
-                        <img src="img/oferta-hot-sale.webp" alt="Hot Sale" class="position-absolute top-0 end-0 img-hot-sale"></a>
-                        
-                      </div>
-                        
+                        <div class="position-relative">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#imagenModal12"><img
+                                    class="img-fluid img" src="img/producto12.png" alt="Imagen producto 12">
+                                <img src="img/oferta-hot-sale.webp" alt="Hot Sale"
+                                    class="position-absolute top-0 end-0 img-hot-sale"></a>
+
+                        </div>
+
                         <div class="p-3">
                             <h2>Mesa para PC</h2>
 
-                            <div class="d-flex flex-row align-items-center gap-2 justify-content-center align-items-center">
-                              <p class="fs-6 text-decoration-line-through mb-0">$140.000</p>
-                              <p class="fs-4 mb-1 bg-danger py-1 px-3 text-white rounded-3">$90.000</p>
+                            <div
+                                class="d-flex flex-row align-items-center gap-2 justify-content-center align-items-center">
+                                <p class="fs-6 text-decoration-line-through mb-0">$140.000</p>
+                                <p class="fs-4 mb-1 bg-danger py-1 px-3 text-white rounded-3">$90.000</p>
                             </div>
                             <a href="error404.html" class="btn btn-secondary fs-6 w-100">Ver Producto</a>
                         </div>
                     </div>
 
-                    
-                    <div class="modal fade" id="imagenModal12" tabindex="-1" aria-labelledby="imagenModal1Label" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered ">
-                        <div class="modal-content">
-                            <div class="modal-body p-2 text-center">
-                                <img src="img/producto12.png" class="img-fluid pt-5" alt="Imagen producto 2">
-                                <img src="img/oferta-hot-sale.webp" alt="Hot Sale" class="position-absolute top-0 end-0 mt-4 img-hot-sale">
 
-                                <h2>Mesa para PC</h2>
-                                <div class="d-flex flex-row align-items-center gap-2 justify-content-center align-items-center">
-                                    <p class="fs-6 text-decoration-line-through mb-0">$140.000</p>
-                                    <p class="fs-4 mb-1 bg-danger py-1 px-3 text-white rounded-3">$90.000</p>
+                    <div class="modal fade" id="imagenModal12" tabindex="-1" aria-labelledby="imagenModal1Label"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered ">
+                            <div class="modal-content">
+                                <div class="modal-body p-2 text-center">
+                                    <img src="img/producto12.png" class="img-fluid pt-5" alt="Imagen producto 2">
+                                    <img src="img/oferta-hot-sale.webp" alt="Hot Sale"
+                                        class="position-absolute top-0 end-0 mt-4 img-hot-sale">
+
+                                    <h2>Mesa para PC</h2>
+                                    <div
+                                        class="d-flex flex-row align-items-center gap-2 justify-content-center align-items-center">
+                                        <p class="fs-6 text-decoration-line-through mb-0">$140.000</p>
+                                        <p class="fs-4 mb-1 bg-danger py-1 px-3 text-white rounded-3">$90.000</p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="modal-footer">
-                                <button data-bs-dismiss="modal" type="button" class="btn btn-secondary">Cerrar</button>
+                                <div class="modal-footer">
+                                    <button data-bs-dismiss="modal" type="button"
+                                        class="btn btn-secondary">Cerrar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
 
@@ -419,7 +494,7 @@
                     <img src="img/img-publi.PNG" alt="Publicidad" class="img-fluid mb-3 bg-primary">
                 </div>
             </div>
-        </div>    
+        </div>
     </main>
 
     <!-- Divisor -->
@@ -432,8 +507,9 @@
 
     <section class="container-xl ">
         <div class="row my-5">
-            <div class="col-12 col-md-4 col-lg-4 d-lg-flex gap-3 text-center justify-content-center border-bottom border-md-0">
-                
+            <div
+                class="col-12 col-md-4 col-lg-4 d-lg-flex gap-3 text-center justify-content-center border-bottom border-md-0">
+
                 <i class="bi bi-tags fs-3"></i>
 
                 <div class="descuento">
@@ -445,7 +521,7 @@
 
 
             <div class="col-12 col-md-4 col-lg-4 d-lg-flex gap-3 text-center justify-content-center border-start">
-                
+
                 <i class="bi bi-truck fs-3"></i>
 
                 <div class="descuento">
@@ -454,9 +530,10 @@
                 </div>
 
             </div>
-            
-            <div class="col-12 col-md-4 col-lg-4 d-lg-flex gap-3  text-center justify-content-center border-start border-sm-top">
-                
+
+            <div
+                class="col-12 col-md-4 col-lg-4 d-lg-flex gap-3  text-center justify-content-center border-start border-sm-top">
+
                 <i class="bi bi-lock fs-3"></i>
 
                 <div class="descuento">
@@ -465,66 +542,73 @@
                 </div>
 
             </div>
-            
+
 
         </div>
     </section>
     <!-- Fin de divisor -->
 
     <footer class="mt-5">
-      <div class="col-12">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14240.423666958226!2d-65.207167!3d-26.8365833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1731778634436!5m2!1ses!2sar" height="350" class="w-100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-      <div class="container-xl my-5">
-          <div class="row text-center justify-content-lg-between">
-              <div class="col-md-4">
-                  <a href="index.html"><img class="img-fluid img-logo" src="img/logo.png" alt="imagen logo"></a>
-                  
-              </div>
+        <div class="col-12">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14240.423666958226!2d-65.207167!3d-26.8365833!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses!2sar!4v1731778634436!5m2!1ses!2sar"
+                height="350" class="w-100" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="container-xl my-5">
+            <div class="row text-center justify-content-lg-between">
+                <div class="col-md-4">
+                    <a href="index.html"><img class="img-fluid img-logo" src="img/logo.png" alt="imagen logo"></a>
 
-              <div class="col-md-4 text-center d-flex flex-column justify-content-center">
-                  <h3>Redes</h3>
-                  <div class="d-flex flex-column gap-2 mt-3 justify-content-center align-items-center">
+                </div>
 
-                      <div class="d-flex justify-content-between align-items-center text-center w-25">
-                          <i class="bi bi-facebook me-2 fs-3"></i>
-                          <a class="text-decoration-none text-dark d-block text-center" href="https://www.facebook.com/"  target="_blank">Facebook</a>
-                      </div>
-                      
-                      <div class="d-flex justify-content-between align-items-center text-center w-25">
+                <div class="col-md-4 text-center d-flex flex-column justify-content-center">
+                    <h3>Redes</h3>
+                    <div class="d-flex flex-column gap-2 mt-3 justify-content-center align-items-center">
 
-                          <i class="bi bi-instagram me-2 fs-3"></i>
+                        <div class="d-flex justify-content-between align-items-center text-center w-25">
+                            <i class="bi bi-facebook me-2 fs-3"></i>
+                            <a class="text-decoration-none text-dark d-block text-center"
+                                href="https://www.facebook.com/" target="_blank">Facebook</a>
+                        </div>
 
-                          <a class="text-decoration-none text-dark d-block text-center" href="https://www.instagram.com/" target="_blank">Instagram</a>
-                      </div>
+                        <div class="d-flex justify-content-between align-items-center text-center w-25">
 
-                      <div class="d-flex justify-content-between align-items-center text-center w-25">
-                          <i class="bi bi-twitter-x me-2 fs-3"></i>
-                          <a class="text-decoration-none text-dark pe-4" href="https://x.com" target="_blank">Twitter</a>
-                      </div>
-                  </div>
-              </div>
+                            <i class="bi bi-instagram me-2 fs-3"></i>
 
-              <div class="col-md-4 d-flex flex-column justify-content-center mt-5 mt-md-0">
-                  <h3>Soporte</h3>
+                            <a class="text-decoration-none text-dark d-block text-center"
+                                href="https://www.instagram.com/" target="_blank">Instagram</a>
+                        </div>
 
-                  <div class="d-flex flex-column gap-2 mt-3">
-                      <a class="text-decoration-none text-dark" href="error404.html">Preguntas Frecuentes</a>
-                      <a class="text-decoration-none text-dark" href="error404.html">Ayuda en Línea</a>
-                      <a class="text-decoration-none text-dark" href="error404.html">Politica y Privacidad</a>
-                      <a class="text-decoration-none text-dark" href="error404.html">Términos de Servicios</a>
-                      <a class="text-decoration-none text-dark" href="error404.html">Confianza y Seguridad</a>
-                  </div>
-              </div>
-          </div>
+                        <div class="d-flex justify-content-between align-items-center text-center w-25">
+                            <i class="bi bi-twitter-x me-2 fs-3"></i>
+                            <a class="text-decoration-none text-dark pe-4" href="https://x.com"
+                                target="_blank">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex flex-column justify-content-center mt-5 mt-md-0">
+                    <h3>Soporte</h3>
+
+                    <div class="d-flex flex-column gap-2 mt-3">
+                        <a class="text-decoration-none text-dark" href="error404.html">Preguntas Frecuentes</a>
+                        <a class="text-decoration-none text-dark" href="error404.html">Ayuda en Línea</a>
+                        <a class="text-decoration-none text-dark" href="error404.html">Politica y Privacidad</a>
+                        <a class="text-decoration-none text-dark" href="error404.html">Términos de Servicios</a>
+                        <a class="text-decoration-none text-dark" href="error404.html">Confianza y Seguridad</a>
+                    </div>
+                </div>
+            </div>
 
 
-          </div>
+        </div>
 
 
 
-      </div>
-  </footer>
+        </div>
+    </footer>
 
 </body>
+
 </html>
